@@ -1,23 +1,24 @@
 body{
-    background-color: aliceblue;
+    background: url(../img/universe.jpg);
+    background-size: 100%;
+    color: white;
 }
 
 header{
     width: 100%;
-    height: 320px;
-    background: url(../img/Engineer.jpg);
+    height: 250px;
+    background: url(../img/universe_2.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.head_container{
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+header img{
+    width: 55%;
 }
 
-.head_container h1{
-    color: cornsilk;
+.head_container{
+    display: flex;
+    justify-content: space-between;
 }
 
 h1{
@@ -34,10 +35,6 @@ header ul li{
 
 header h2{
     text-align: center;
-    font-family: "Arial Black";
-    font-size: 50px;
-    margin-top: 120px;
-    color: cornsilk;
 }
 
 nav ul{
@@ -49,7 +46,7 @@ nav li{
     display: inline-block;
     width: 150px;
     text-align: center;
-    border-left: 1px dotted black;
+    border-left: 1px dotted cornsilk;
 }
 
 .last{
@@ -68,7 +65,7 @@ nav li{
 .item01 h1{
     text-align: center;
     font-size: 25px;
-    border-bottom: 1px solid navy;
+    border-bottom: 1px solid cornsilk;
 }
 
 .item01 img{
@@ -130,9 +127,15 @@ nav li{
     text-align: center;
 }
 
+.article_item div{
+    text-align: center;
+}
+
 footer{
     width: 100%;
-    background-color: chartreuse;
+    background: url(../img/Engineer.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 30px 0px;
 }
@@ -148,7 +151,7 @@ footer h2{
 }
 
 a {
-    color: #0077cc;
+    color: #47ef0a;
     text-decoration: none;
   }
   
