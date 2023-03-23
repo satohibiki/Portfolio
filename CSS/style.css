@@ -1,6 +1,6 @@
 body{
     background: url(../img/universe.jpg);
-    background-size: 100%;
+    background-size: 50%;
     color: white;
 }
 
@@ -13,7 +13,7 @@ header{
 }
 
 header img{
-    width: 55%;
+    width: 40%;
 }
 
 .head_container{
